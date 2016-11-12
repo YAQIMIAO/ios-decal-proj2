@@ -18,6 +18,7 @@ class StartScreenViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor.white
         gameTitle.translatesAutoresizingMaskIntoConstraints = false
         startButton.translatesAutoresizingMaskIntoConstraints = false
         hangmanImages.translatesAutoresizingMaskIntoConstraints = false
